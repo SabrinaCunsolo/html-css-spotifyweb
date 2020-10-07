@@ -22,15 +22,35 @@ main {
     overflow: auto;
 }
 
+.logo-spotify {
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.fa-spotify {
+    font-size: 40px;
+    padding-right: 6px;
+}
+
 ul {
     list-style-type: none;
 }
 
-li a {
+.fa-search, .fa-house-user, .fa-book {
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.sidebar-list a {
     display: block;
-    color: white;
+    color: #BBAC8A;
     padding: 10px 18px;
     text-decoration: none;
+}
+
+.sidebar-list a:hover {
+    color: white;
 }
 
 .content {

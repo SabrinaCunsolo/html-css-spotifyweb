@@ -186,7 +186,33 @@ nav {
 
 footer {
     height: 130px;
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sx {
+    width: 300px;
     background-color: lightblue;
+    padding: 20px;
+
+}
+
+
+.footer-sx img {
+    max-width: 90px;
+    height: auto;
+}
+
+.footer-center {
+    width: 500px;
+    background-color: yellow;
+}
+
+.footer-dx {
+    width: 200px;
+    background-color: pink;
+    display: block;
 }
 
 @media screen and (min-width: 992px) {

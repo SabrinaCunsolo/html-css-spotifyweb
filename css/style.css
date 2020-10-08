@@ -48,15 +48,15 @@ main {
 
 .logo-spotify {
     color: white;
-    font-size: 28px;
+    font-size: 16px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
 }
 
 .fa-spotify {
-    font-size: 40px;
-    padding-right: 6px;
+    font-size: 22px;
+    padding-right: 4px;
 }
 
 ul {
@@ -152,7 +152,7 @@ nav {
 /* card */
 
 .card-row1, .card-row2 {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .card-box {
@@ -192,16 +192,43 @@ footer {
 }
 
 .footer-sx {
-    width: 300px;
-    background-color: lightblue;
+    width: 350px;
+    /* background-color: lightblue; */
     padding: 20px;
-
 }
 
-
 .footer-sx img {
-    max-width: 90px;
+    max-width: 70px;
     height: auto;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box ul .band {
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.img-box ul .song-album {
+    color: #EDD1B6;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.fa-heart {
+    color: #EDD1B6;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.fa-heart:hover {
+    color: #F7007A;
 }
 
 .footer-center {
@@ -210,9 +237,7 @@ footer {
 }
 
 .footer-dx {
-    width: 200px;
-    background-color: pink;
-    display: block;
+    display: none;
 }
 
 @media screen and (min-width: 992px) {
@@ -242,6 +267,36 @@ footer {
     .card {
         width: 180px;
         height: 180px;
+    }
+
+    .footer-dx {
+        width: 200px;
+        background-color: pink;
+        display: block;
+    }
+
+    .logo-spotify {
+        color: white;
+        font-size: 28px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .fa-spotify {
+        font-size: 40px;
+        padding-right: 6px;
+    }
+
+    .fa-heart {
+        color: #EDD1B6;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .footer-sx img {
+        max-width: 90px;
+        height: auto;
     }
 
 }

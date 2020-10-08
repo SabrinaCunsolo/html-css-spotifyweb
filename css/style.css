@@ -9,21 +9,30 @@ body {
 }
 
 main {
-    height: 100vh
+    /* height: 100vh; */
     background-color: coral;
     display: flex;
     margin: 0;
 }
 
+.container::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
 .sidebar {
     width: 15%;
-    height: 100%;
+    height: calc(100vh - 130px);
     margin: 0;
     padding: 0;
     background-color: #171306;
     float: left;
     position: fixed;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo-spotify {
@@ -77,6 +86,9 @@ ul {
 .install {
     color: #BBAC8A;
     padding-left: 18px;
+    padding-right: 130px;
+    padding: 20px 130px 20px 18px;
+    display: inline-block;
 }
 
 .fa-arrow-alt-circle-down {
@@ -89,19 +101,33 @@ ul {
     float: left;
 }
 
+.user {
+    color: #BBAC8A;
+    padding: 10px 130px 20px 18px;
+    display: inline-block;
+}
+
+.fa-user {
+    float: left;
+    padding-right: 10px;
+}
+
+.user-name {
+    font-size: 15px;
+    float: left;
+}
+
 .content {
     margin-left: 15%;
     width: 85%;
-    height: 100%;
+    height: calc(100vh - 130px);
     background: linear-gradient(to bottom right, #a1890a 0%, #33321f 70%);
     float: left;
     padding: 3px 18px;
 
-
 }
 
 footer {
-    height: 90px;
+    height: 130px;
     background-color: lightblue;
-    position: fixed;
 }

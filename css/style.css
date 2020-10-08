@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color:
+    color: #BBAC8A;
 }
 
 /* main */
@@ -41,7 +41,6 @@ main {
     background-color: #171306;
     float: left;
     /* position: fixed; */
-    overflow: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,6 +138,7 @@ ul {
     /* background: linear-gradient(to bottom right, #a1890a 0%, #33321f 70%); */
     float: left;
     padding: 20px 60px;
+    overflow: auto;
 }
 
 nav {
@@ -150,24 +150,35 @@ nav {
 }
 
 /* card */
+
+.card-row1, .card-row2 {
+    padding-top: 30px;
+}
+
 .card-box {
     display: flex;
     flex-wrap: wrap;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .card {
     width: 150px;
     height: 150px;
-    background-color: red;
+    /* background-color: red; */
     margin: 20px;
     border-radius: 50%;
+    text-align: center;
 }
 
 .card-box div img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
+}
+
+.card-description {
+    color: #BBAC8A;
+    font-size: 16px;
 }
 
 

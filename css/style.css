@@ -198,7 +198,7 @@ footer {
 }
 
 .footer-sx img {
-    max-width: 70px;
+    max-width: 50px;
     height: auto;
 }
 
@@ -232,7 +232,7 @@ footer {
 }
 
 #footer-center {
-    width: 200px;
+    width: 150px;
     margin: 0 auto;
     /* display: flex;
     justify-content: space-between; */
@@ -244,17 +244,17 @@ footer {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .fa-random, .fa-step-backward, .fa-step-forward, .fa-redo-alt {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 8px;
+    padding: 1px;
 }
 
 .fa-pause-circle {
-    font-size: 22px;
-    padding: 5px;
+    font-size: 12px;
+    padding: 2px;
 }
 
 #footer-center li i:hover {
@@ -274,6 +274,7 @@ footer {
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 5px;
 
 }
 
@@ -294,17 +295,15 @@ footer {
 .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #4CAF50;
+    background: #d3d3d3;
     cursor: pointer;
 }
 
 .minutes {
-    color: #EDD1B6;
-    font-size: 12px;
-    padding: 10px;
+    display: none;
 }
 
-.footer-dx {
+#footer-dx {
     display: none;
 }
 
@@ -337,12 +336,6 @@ footer {
         height: 180px;
     }
 
-    .footer-dx {
-        width: 200px;
-        background-color: pink;
-        display: block;
-    }
-
     .logo-spotify {
         color: white;
         font-size: 28px;
@@ -355,6 +348,8 @@ footer {
         font-size: 40px;
         padding-right: 6px;
     }
+
+
 
     .fa-heart {
         color: #EDD1B6;
@@ -391,6 +386,31 @@ footer {
     .fa-pause-circle {
         font-size: 32px;
         padding: 10px;
+    }
+
+    .minutes {
+        color: #EDD1B6;
+        font-size: 12px;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    #footer-dx {
+        max-width: 300px;
+        /* background-color: pink; */
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-icons {
+        float: left;
+        padding: 10px;
+        color: #EDD1B6;
+    }
+
+    .footer-icons:hover {
+        color: white;
     }
 
 }
